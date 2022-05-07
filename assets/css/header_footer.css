@@ -1,0 +1,53 @@
+header {
+    background: #000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, .16),
+                0 2px 10px 0 rgba(0, 0, 0, .12);
+    
+}
+
+header > * {
+    padding: 12px 24px;
+    cursor: pointer;
+}
+
+header div {
+    position: relative;
+}
+
+.subnav {
+    position: absolute;
+    display: none;
+    min-width: 160px;
+    top: 46.5px;
+    left: 0;
+    background: #fff;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .2),
+                0 4px 20px 0 rgba(0, 0, 0, .19);
+}
+
+header div:hover .subnav {
+    display: unset;
+}
+
+.subnav__item {
+    padding: 8px 16px;
+    color: #000;
+}
+
+.subnav__item:hover {
+    background: #ccc;
+}
+
+/* footer */
+footer {
+    padding: 64px 16px;
+}
+
+footer a {
+    color: inherit;
+}

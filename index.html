@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="./assets/css/header_footer.css">
+    <link rel="stylesheet" href="./assets/css/modal.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://quythanh.tk/assets/css/fontawesomepro/all.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <div class="direct__home text-white hover-gray left">HOME</div>
+        <div class="direct__band text-white hover-gray left">BAND</div>
+        <div class="direct__tour text-white hover-gray left">TOUR</div>
+        <div class="direct__contact text-white hover-gray left">CONTACT</div>
+        <div class="text-white hover-gray left">
+            MORE <i class="fas fa-caret-down"></i>
+            <ul class="subnav">
+                <li class="subnav__item direct__home">Merchandise</li>
+                <li class="subnav__item direct__home">Extras</li>
+                <li class="subnav__item direct__home">Media</li>
+            </ul>
+        </div>
+        <div class="text-white hover-red right">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    
+    <!-- Content -->
+    <div class="content">
+        <div id="home">
+            <div class="w100">
+                <img class="w100" src="./assets/img/la.jpg" alt="">
+                <div class="home__desc">
+                    <h3 class="text-white text-center text-xl home__desc__city">Los Angeles</h3>
+                    <p class="text-white text-center text-bold">We had the best time playing at Venice Beach!</p>
+                </div>
+            </div>
+            <div class="w100">
+                <img class="w100" src="./assets/img/ny.jpg" alt="">
+                <div class="home__desc">
+                    <h3 class="text-white text-center text-xl home__desc__city">New York</h3>
+                    <p class="text-white text-center text-bold">The atmosphere in New York is lorem ipsum.</p>
+                </div>
+            </div>
+            <div class="w100">
+                <img class="w100" src="./assets/img/chicago.jpg" alt="">
+                <div class="home__desc">
+                    <h3 class="text-white text-center text-xl home__desc__city">Chicago</h3>
+                    <p class="text-white text-center text-bold">Thank you, Chicago - A night we won't forget.</p>
+                </div>
+            </div>
+        </div>
+
+        <div id="band" class="section">
+            <h2 class="section__heading text-xxl text-center">THE BAND</h2>
+            <p class="text-italic text-center text-opacity">We love music</p>
+            <div class="section__content">
+                <p class="text-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <div class="row band__thumbnails">
+                    <div class="col w33 text-center">
+                        <p>Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="" class="member__img">
+                    </div>
+                    <div class="col w33 text-center">
+                        <p>Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="" class="member__img">
+                    </div>
+                    <div class="col w33 text-center">
+                        <p>Name</p>
+                        <img src="./assets/img/bandmember.jpg" alt="" class="member__img">
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="tour" class="section">
+            <h2 class="section__heading text-xxl text-white text-center">TOUR DATES</h2>
+            <p class="text-white text-italic text-center text-opacity">Remember to book your tickets!</p>
+            <br />
+            <div class="section__content">
+                <ul class="w100 tour__book-ticket">
+                    <li>
+                        September
+                        <span class="text-white text-center sold-out">Sold out</span>
+                    </li>
+                    <li>
+                        October
+                        <span class="text-white text-center sold-out">Sold out</span>
+                    </li>
+                    <li>
+                        November
+                        <span class="text-white text-center quantity right">3</span>
+                    </li>
+                </ul>
+                <div class="row tour__list-tickets">
+                    <div class="col w33 ticket">
+                        <img src="./assets/img/newyork.jpg" alt="" class="text-hover-opacity w100">
+                        <div class="ticket__details">
+                            <p class="text-bold">New York</p>
+                            <p class="text-opacity">Fri 27 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="block-black hover-gray ticket__btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="col w33 ticket">
+                        <img src="./assets/img/paris.jpg" alt="" class="text-hover-opacity w100">
+                        <div class="ticket__details">
+                            <p class="text-bold">Paris</p>
+                            <p class="text-opacity">Sat 28 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="block-black hover-gray ticket__btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                    <div class="col w33 ticket">
+                        <img src="./assets/img/sanfran.jpg" alt="" class="text-hover-opacity w100">
+                        <div class="ticket__details">
+                            <p class="text-bold">San Francisco</p>
+                            <p class="text-opacity">Sun 29 Nov 2016</p>
+                            <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                            <button class="block-black hover-gray ticket__btn">Buy Tickets</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div id="contact" class="section">
+            <h2 class="section__heading text-xxl text-center">CONTACT</h2>
+            <p class="text-italic text-center text-opacity">Fan? Drop a note!</p>
+            <div class="section__content">
+                <div class="row">
+                    <div class="col w50 text-l">
+                        <i class="fa-solid fa-location-dot text-m contact__icon"></i>
+                        Chicago, US
+                        <br>
+                        <i class="fa-solid fa-phone text-m contact__icon"></i>
+                        Phone: +00 151515
+                        <br>
+                        <i class="fa-solid fa-envelope text-m contact__icon"></i>
+                        Email: mail@mail.com
+                    </div>
+                    <div class="col w50 right">
+                        <form action="">
+                            <div class="row">
+                                <div class="col w50">
+                                    <input type="text" name="name" id="name" placeholder="Name" class="form-control w100 text-m" autocomplete="off">
+                                </div>
+                                <div class="col w50">
+                                    <input type="email" name="email" id="email" placeholder="Email" class="form-control w100 text-m" autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col w100">
+                                    <input type="text" name="msg" id="msg" placeholder="Message" class="form-control w100 text-m" autocomplete="off">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col w100">
+                                    <button type="submit" class="block-black hover-gray right text-m">SEND</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <img src="./assets/img/map.jpg" alt="" class="w100">
+    </div>
+
+    <!-- Modal -->
+    <div class="modal hide">
+        <div class="modal__inner">
+            <div class="modal__header text-white text-center">
+                <i class="fas fa-times text-l hover-gray"></i>
+                <div class="modal__title section__heading text-xxl">
+                    <i class="fas fa-suitcase"></i>
+                    Tickets
+                </div>
+            </div>
+            <div class="modal__body">
+                <form action="">
+                    <p>
+                        <label for="buy-quantity">
+                            <i class="fa-solid fa-cart-shopping"></i>
+                             Tickets, $15 per person
+                        </label>
+                    </p>
+                    <input type="text" id="buy-quantity" class="w100 text-m form-control" placeholder="How many?" autocomplete="off">
+                    <p>
+                        <label for="buy-email">
+                            <i class="fa-solid fa-user"></i>
+                             Send To
+                        </label>
+                    </p>
+                    <input type="text" id="buy-email" class="w100 text-m form-control" placeholder="Enter email" autocomplete="off">
+                    <button class="w100 buy-submit text-white hover-gray">
+                        PAY 
+                        <i class="fa-solid fa-check"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="modal__footer">
+                <button class="modal__button-close text-m text-white hover-gray left">
+                    Close
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+                <p class="right">
+                    Need <a class="direct__home">help?</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-opacity text-center">
+        <i class="fa-brands fa-facebook-square text-hover-opacity text-xl"></i>
+        <i class="fa-brands fa-instagram text-hover-opacity text-xl"></i>
+        <i class="fa-brands fa-snapchat text-hover-opacity text-xl"></i>
+        <i class="fa-brands fa-pinterest-p text-hover-opacity text-xl"></i>
+        <i class="fa-brands fa-twitter text-hover-opacity text-xl"></i>
+        <i class="fa-brands fa-linkedin-in text-hover-opacity text-xl"></i>
+        <p>
+            Powered by 
+            <a class="direct__home">w3.css</a>
+        </p>
+    </footer>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+</html>

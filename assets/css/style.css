@@ -1,0 +1,114 @@
+/* section */
+.section {
+    padding: 64px 0;
+}
+
+.section__content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 16px;
+}
+
+.section__heading {
+    font-weight: 400;
+    margin: 10px 0;
+    letter-spacing: 4px;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* content */
+.content {
+    margin-top: 46.5px;
+}
+
+/* home */
+#home > div {
+    position: relative;
+    text-align: center;
+}
+
+.home__desc {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 32px 16px;
+}
+
+.home__desc__city {
+    font-weight: 400;
+    margin: 10px 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+}
+
+/* band */
+.member__img {
+    width: 60%;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+/* tour */
+#tour.section {
+    background: #000;
+}
+
+.tour__book-ticket {
+    color: #757575;
+    background: #fff;
+}
+
+.tour__book-ticket > li {
+    border-bottom: 1px solid #ddd;
+    padding: 8px 16px;
+}
+
+.tour__book-ticket > li > span {
+    margin: 0 16px;
+    padding: 2px 8px;
+}
+
+.sold-out {
+    background: #f44336;
+}
+
+.quantity {
+    border-radius: 50%;
+    background: #000;
+    padding: 0 8px!important;
+}
+
+.ticket {
+    margin-bottom: 16px;
+}
+
+.ticket__details {
+    background: #fff;
+    padding: 0 16px;
+    overflow: hidden;
+}
+
+.ticket__btn {
+    margin-bottom: 16px;
+    font: inherit;
+}
+
+.contact__icon {
+    width: 30px;
+}
+
+/* form */
+form .row {
+    padding: 0;
+    margin: 0 -16px 8px -16px;
+}
+
+.form-control {
+    border: 1px solid #ccc;
+    padding: 8px;
+}
+
+form button {
+    margin: 8px 0;
+    font: inherit;
+}

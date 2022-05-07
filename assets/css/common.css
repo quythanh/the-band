@@ -1,0 +1,138 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+html {
+    overflow-x: hidden;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+body {
+    height: 100vh;
+    font-family: "Lato", sans-serif;
+}
+
+a {
+    color: #2196f3;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+p {
+    margin: 15px 0;
+    font-size: 15px;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+/* text style */
+.text-center {
+    text-align: center !important;
+}
+
+.text-justify {
+    text-align: justify !important;
+}
+
+.text-bold {
+    font-weight: bolder !important;
+}
+
+.text-italic {
+    font-style: italic !important;
+}
+
+.text-opacity,
+.text-hover-opacity:hover {
+    opacity: .6;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.text-m {
+    font-size: 15px !important;
+}
+
+.text-l {
+    font-size: 18px !important;
+}
+
+.text-xl {
+    font-size: 24px !important;
+}
+
+.text-xxl {
+    font-size: 30px !important;
+}
+
+/* row col layout */
+.row {
+    margin-left: -8px;
+    margin-right: -8px;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    overflow: hidden;
+}
+
+.col {
+    padding-left: 8px;
+    padding-right: 8px;
+    float: left;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+}
+
+.w33 {
+    width: calc(100%/3);
+}
+
+.block-black {
+    background: #000;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+.hover-gray:hover {
+    background: #ccc!important;
+    color: #000!important;
+}
+
+.hover-red:hover {
+    background: #f44336;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.hide {
+    display: none;
+}
