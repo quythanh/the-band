@@ -1,0 +1,13 @@
+@media (min-width: 641px) and (max-width: 740px) {
+    .modal__inner {
+        width: auto;
+        margin: 0 10px;
+    }
+}
+
+@media (min-width: 741px) and (max-width: 950px) {
+    .modal__inner {
+        width: 700px;
+        margin: auto;
+    }
+}

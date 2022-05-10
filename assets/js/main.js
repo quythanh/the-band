@@ -37,4 +37,25 @@ myModal.addEventListener('click', e => e.target == e.currentTarget ? toggleModal
 document.querySelector('.modal__header > i').addEventListener('click', () => toggleModal())
 document.querySelector('.modal__footer > button').addEventListener('click', () => toggleModal())
 
+// ignore submit
 document.querySelectorAll('form').forEach(form => form.addEventListener('submit', e => e.preventDefault()))
+
+
+// mobile UI
+// open menu
+const header = document.querySelector('header')
+var isMobileHeaderOpen = false
+const toggleMobileHeader = () => {
+    header.classList.toggle('mobile-open')
+    isMobileHeaderOpen = !isMobileHeaderOpen
+    header.classList.add('hidden')
+}
+document.querySelector('header div').addEventListener('click', () => toggleMobileHeader())
+
+// close menu when click nav item
+let dir1 = [...document.querySelectorAll('header div.left')]
+let dir2 = [...document.querySelectorAll('.subnav__item')]
+let subnav = dir1.pop();
+[...dir1, ...dir2].forEach(el => el.addEventListener('click', () => isMobileHeaderOpen ? toggleMobileHeader() : null))
+subnav.addEventListener('mouseover', () => header.classList.remove('hidden'))
+subnav.addEventListener('mouseleave', () => header.classList.add('hidden'))

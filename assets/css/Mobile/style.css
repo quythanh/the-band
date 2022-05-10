@@ -1,0 +1,56 @@
+@media (max-width: 640px) {
+    header {
+        height: 46.5px;
+    }
+
+    header.hidden {
+        overflow: hidden;
+    }
+
+    header div:nth-child(2) {
+        display: inline-block;
+    }
+
+    header .left {
+        float: unset;
+    }
+
+    header.mobile-open {
+        height: auto;
+    }
+
+    .subnav {
+        width: 100%;
+        background: #333;
+    }
+
+    .subnav__item {
+        color: #fff;
+        padding: 8px 42px;
+    }
+
+    .home__desc {
+        display: none;
+    }
+
+    .modal__inner {
+        margin: 0 10px;
+        width: auto;
+    }
+
+    .w100s {
+        width: 100%;
+    }
+    
+    .w50s {
+        width: 50%;
+    }
+    
+    .w33s {
+        width: calc(100%/3);
+    }
+
+    .hide-s {
+        display: none;
+    }
+}

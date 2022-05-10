@@ -1,0 +1,17 @@
+@media (min-width: 641px) and (max-width: 1023px) {
+    .w100m {
+        width: 100%;
+    }
+    
+    .w50m {
+        width: 50%;
+    }
+    
+    .w33m {
+        width: calc(100%/3);
+    }
+
+    .hide-m {
+        display: none;
+    }
+}

@@ -45,7 +45,6 @@
 .member__img {
     width: 60%;
     border-radius: 4px;
-    margin-bottom: 16px;
 }
 
 /* tour */
@@ -111,4 +110,26 @@ form .row {
 form button {
     margin: 8px 0;
     font: inherit;
+}
+
+form .col {
+    margin-bottom: 0;
+}
+
+@media (min-width: 1024px) {
+    .w100l {
+        width: 100%;
+    }
+    
+    .w50l {
+        width: 50%;
+    }
+    
+    .w33l {
+        width: calc(100%/3);
+    }
+
+    .hide-l {
+        display: none;
+    }
 }

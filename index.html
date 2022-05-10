@@ -5,29 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Band</title>
-    <link rel="stylesheet" href="./assets/css/common.css">
-    <link rel="stylesheet" href="./assets/css/header_footer.css">
-    <link rel="stylesheet" href="./assets/css/modal.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
-    <link rel="stylesheet" href="https://quythanh.tk/assets/css/fontawesomepro/all.css">
+    <link rel="stylesheet" href="./assets/css/all.css">
+    <link rel="stylesheet" href="/assets/css/fontawesomepro/all.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/images/favicon.png">
 </head>
 <body>
     <!-- Navbar -->
-    <header>
-        <div class="direct__home text-white hover-gray left">HOME</div>
-        <div class="direct__band text-white hover-gray left">BAND</div>
-        <div class="direct__tour text-white hover-gray left">TOUR</div>
-        <div class="direct__contact text-white hover-gray left">CONTACT</div>
+    <header class="hidden">
+        <div class="text-white hover-gray right hide-m hide-l">
+            <span>
+                <i class="fa-regular fa-bars"></i>
+            </span>
+        </div>
+        <div class="direct__home text-white hover-gray left">
+            <span>
+                HOME
+            </span>
+        </div>
+        <div class="direct__band text-white hover-gray left">
+            <span>
+                BAND
+            </span>
+        </div>
+        <div class="direct__tour text-white hover-gray left">
+            <span>
+                TOUR
+            </span>
+        </div>
+        <div class="direct__contact text-white hover-gray left">
+            <span>
+                CONTACT
+            </span>
+        </div>
         <div class="text-white hover-gray left">
-            MORE <i class="fas fa-caret-down"></i>
+            <span>
+                MORE <i class="fas fa-caret-down"></i>
+            </span>
             <ul class="subnav">
                 <li class="subnav__item direct__home">Merchandise</li>
                 <li class="subnav__item direct__home">Extras</li>
                 <li class="subnav__item direct__home">Media</li>
             </ul>
         </div>
-        <div class="text-white hover-red right">
-            <i class="fa-solid fa-magnifying-glass"></i>
+        
+        <div class="text-white hover-red right hide-s">
+            <span>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </span>
         </div>
     </header>
     
@@ -63,15 +87,15 @@
             <div class="section__content">
                 <p class="text-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                 <div class="row band__thumbnails">
-                    <div class="col w33 text-center">
+                    <div class="col w33l w33m w100s text-center">
                         <p>Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="" class="member__img">
                     </div>
-                    <div class="col w33 text-center">
+                    <div class="col w33l w33m w100s text-center">
                         <p>Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="" class="member__img">
                     </div>
-                    <div class="col w33 text-center">
+                    <div class="col w33l w33m w100s text-center">
                         <p>Name</p>
                         <img src="./assets/img/bandmember.jpg" alt="" class="member__img">
                     </div>
@@ -100,7 +124,7 @@
                     </li>
                 </ul>
                 <div class="row tour__list-tickets">
-                    <div class="col w33 ticket">
+                    <div class="col w33l w33m w100s">
                         <img src="./assets/img/newyork.jpg" alt="" class="text-hover-opacity w100">
                         <div class="ticket__details">
                             <p class="text-bold">New York</p>
@@ -109,7 +133,7 @@
                             <button class="block-black hover-gray ticket__btn">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="col w33 ticket">
+                    <div class="col w33l w33m w100s">
                         <img src="./assets/img/paris.jpg" alt="" class="text-hover-opacity w100">
                         <div class="ticket__details">
                             <p class="text-bold">Paris</p>
@@ -118,7 +142,7 @@
                             <button class="block-black hover-gray ticket__btn">Buy Tickets</button>
                         </div>
                     </div>
-                    <div class="col w33 ticket">
+                    <div class="col w33l w33m w100s">
                         <img src="./assets/img/sanfran.jpg" alt="" class="text-hover-opacity w100">
                         <div class="ticket__details">
                             <p class="text-bold">San Francisco</p>
@@ -137,7 +161,7 @@
             <p class="text-italic text-center text-opacity">Fan? Drop a note!</p>
             <div class="section__content">
                 <div class="row">
-                    <div class="col w50 text-l">
+                    <div class="col w50l w50m w100s text-l">
                         <i class="fa-solid fa-location-dot text-m contact__icon"></i>
                         Chicago, US
                         <br>
@@ -147,13 +171,13 @@
                         <i class="fa-solid fa-envelope text-m contact__icon"></i>
                         Email: mail@mail.com
                     </div>
-                    <div class="col w50 right">
+                    <div class="col w50l w50m w100s right">
                         <form action="">
                             <div class="row">
-                                <div class="col w50">
+                                <div class="col w50l w50m w100s">
                                     <input type="text" name="name" id="name" placeholder="Name" class="form-control w100 text-m" autocomplete="off">
                                 </div>
-                                <div class="col w50">
+                                <div class="col w50l w50m w100s">
                                     <input type="email" name="email" id="email" placeholder="Email" class="form-control w100 text-m" autocomplete="off">
                                 </div>
                             </div>

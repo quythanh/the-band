@@ -94,6 +94,7 @@ img {
 .col {
     padding-left: 8px;
     padding-right: 8px;
+    margin-bottom: 16px;
     float: left;
 }
 

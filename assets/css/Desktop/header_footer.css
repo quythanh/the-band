@@ -11,8 +11,12 @@ header {
 }
 
 header > * {
-    padding: 12px 24px;
     cursor: pointer;
+}
+
+header > * > span {
+    padding: 12px 24px;
+    display: block;
 }
 
 header div {
